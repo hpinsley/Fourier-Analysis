@@ -44,7 +44,7 @@ Then this becomes:
 $$
 \frac{1}{2} \left( {
 \left[t^2 \cdot {\frac{-1}{\pi i n}}e^{-\pi i n t} \right]_0^2 - 
-\int_0^2{{\frac{-1}{\pi n t}}e^{-\pi i n t} \cdot 2t dt}
+\int_0^2{{\frac{-1}{\pi i n}}e^{-\pi i n t} \cdot 2t dt}
 }
 \right )
 $$
@@ -54,7 +54,7 @@ Simplifying we get:
 $$
 \frac{1}{2} \left( {
 2^2 \cdot {\frac{-1}{\pi i n}}e^{-2 \pi i n} - 
-\int_0^2{{\frac{-1}{\pi n t}}e^{-\pi i n t} \cdot 2t dt}
+\int_0^2{{\frac{-1}{\pi i n}}e^{-\pi i n t} \cdot 2t dt}
 }\right )
 $$
 
