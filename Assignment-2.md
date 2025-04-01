@@ -63,6 +63,29 @@ $$
 }\right )
 $$
 
+$$
+- {\frac{2}{\pi i n}}e^{-2 \pi i n}
++ \left( {
+ \int_0^2{{\frac{1}{\pi i n}}e^{-\pi i n t} \cdot t dt}
+}\right )
+$$
 
+Now we integrate what's inside the parens again, this time letting:
 
+ - $u = t$
+ - $du = dt$
+ - $dv = \frac{1}{\pi i n}e^{-\pi i n t}dt$
+ - $v = {\frac{1}{\pi^2 n^2}}e^{-\pi in t}$
+ Note the sign change due to $i^2$ 
 
+So:
+
+$$
+C_n = 
+- {\frac{2}{\pi i n}}e^{-2 \pi i n}
++ \left[
+\frac{t}{\pi^2 n^2}e^{-\pi n t}
+\right]_0^2
+- 
+\int_0^2{{\frac{1}{\pi^2 n^2}}e^{-\pi i n t} \cdot dt}
+$$
