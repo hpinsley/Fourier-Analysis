@@ -89,3 +89,14 @@ C_n =
 - 
 \int_0^2{{\frac{1}{\pi^2 n^2}}e^{-\pi i n t} \cdot dt}
 $$
+
+$$
+C_n = 
+- {\frac{2}{\pi i n}}e^{-2 \pi i n}
++ 
+\frac{2}{\pi^2 n^2}e^{-2\pi n}
+- 
+\int_0^2{{\frac{1}{\pi^2 n^2}}e^{-\pi i n t} \cdot dt}
+$$
+
+I should have noted this earlir.  
