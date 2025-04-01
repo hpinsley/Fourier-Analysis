@@ -14,15 +14,14 @@ $$\hat{f}_n = C_n = \int_{-\frac{1}{2}}^{\frac{1}{2}}e^{-2\pi i nt}f(t)dt$$
 Any interval of period 1 will work.  **Note, however, if the period is not 1 the formula changes.**
 In particular, if the period is T, the formula becomes
 
-$$\hat{f}_n = C_n = \frac{1}{T}\int_0^Te^{-2\pi in \left(\frac{1}{t}\right)}f(t)dt$$
+$$\hat{f}_n = C_n = \frac{1}{T}\int_0^Te^{-2\pi in \left(\frac{t}{T}\right)}f(t)dt$$
 
 
 ## Question 1 ##
 Let $f(t)$ be a function of period $T = 2$ with $f(t) = t^2$
 if $0 ≤ t < 2$
 
-(a) Find the Fourier series coefficients, $C_n$, of $f(t)$.
-
+(a) **Find the Fourier series coefficients**, $C_n$, of $f(t)=t^2$ 
 Given that the period is 2, the formula for $C_n$ is:
 
 $$C_n = \frac{1}{T}\int_0^Te^{-2\pi in \left(\frac{t}{T}\right)}f(t)dt$$
@@ -53,11 +52,16 @@ Simplifying we get:
 
 $$
 \frac{1}{2} \left( {
-2^2 \cdot {\frac{-1}{\pi i n}}e^{-2 \pi i n} - 
-\int_0^2{{\frac{-1}{\pi i n}}e^{-\pi i n t} \cdot 2t dt}
+2^2 \cdot {\frac{-1}{\pi i n}}e^{-2 \pi i n} + \int_0^2{{\frac{1}{\pi i n}}e^{-\pi i n t} \cdot 2t dt}
 }\right )
 $$
 
+$$
+- {\frac{2}{\pi i n}}e^{-2 \pi i n}
+- \frac{1}{2} \left( {
+ + \int_0^2{{\frac{1}{\pi i n}}e^{-\pi i n t} \cdot 2t dt}
+}\right )
+$$
 
 
 
