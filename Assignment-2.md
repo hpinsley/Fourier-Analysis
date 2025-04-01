@@ -37,5 +37,16 @@ Let:
  - $u = t^2$
  - $du = 2tdt$
  - $dv = e^{-\pi in t}$
- - $v = -{\frac{1}{\pi n t}}e^{-\pi in t}$
+ - $v = {\frac{-1}{\pi n t}}e^{-\pi in t}$
+
+Then this becomes:
+
+$$
+\frac{1}{2} \cdot \left( {
+\left[t^2 \cdot {\frac{-1}{\pi n t}}e^{-\pi in t} \right]_0^2 - 
+\int_0^2{{\frac{-1}{\pi n t}}e^{-\pi in t} \cdot 2t dt}
+}
+\right )
+
+$$
 
