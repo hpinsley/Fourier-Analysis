@@ -30,7 +30,7 @@ $$C_n = \frac{1}{2}\int_0^2e^{-2\pi in \left(\frac{t}{2}\right)}t^2dt$$
 
 $$C_n = \frac{1}{2}\int_0^2e^{-\pi in t}t^2dt$$
 
-We will solve this by integratoin by parts.
+We will solve this by integration by parts.
 
 Let:
  - $u = t^2$
@@ -58,10 +58,11 @@ $$
 
 $$
 - {\frac{2}{\pi i n}}e^{-2 \pi i n}
-- \frac{1}{2} \left( {
- + \int_0^2{{\frac{1}{\pi i n}}e^{-\pi i n t} \cdot 2t dt}
++ \frac{1}{2} \left( {
+ \int_0^2{{\frac{1}{\pi i n}}e^{-\pi i n t} \cdot 2t dt}
 }\right )
 $$
+
 
 
 
