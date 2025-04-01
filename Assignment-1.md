@@ -14,7 +14,7 @@ $$\hat{f}_n = C_n = \int_{-\frac{1}{2}}^{\frac{1}{2}}e^{-2\pi i nt}f(t)dt$$
 Any interval of period 1 will work.  **Note, however, if the period is not 1 the formula changes.**
 In particular, if the period is T, the formula becomes
 
-$$\hat{f}_n = C_n = \frac{1}{T}\int_0^Te^{-2\pi in \left(\frac{1}{t}\right)}f(t)dt$$
+$$\hat{f}_n = C_n = \frac{1}{T}\int_0^Te^{-2\pi in \left(\frac{t}{T}\right)}f(t)dt$$
 
 
 # Rectangle Function #
