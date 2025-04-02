@@ -92,3 +92,15 @@ $$
 \right )
 $$
 
+First evaluating the square brackets
+
+$$
+\frac{1}{2} \left( {
+{\frac{-4}{\pi i n}} + \frac{2}{\pi i n} 
+\left(
+    {\frac{-2}{\pi i n}}e^{-2\pi in}
+    - \int_0^2 {\frac{-1}{\pi i n}}e^{-\pi in t}dt
+\right)
+}
+\right )
+$$
