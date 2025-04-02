@@ -212,3 +212,35 @@ $$
 $$
 {\frac{2\left(1 + i \pi n \right)}{\pi^2 n^2}} 
 $$
+
+Note the problem for $C_0$.  However, this is the $C_0$ is the average value of the function on the interval.  That is:
+
+$$
+f_{avg} = \frac{1}{T}\int_{Interval\space T} f(t)dt
+$$
+
+$$
+C_0 = \frac{1}{2} \int_0^2 t^2dt
+$$
+
+$$
+C_0 = \frac{1}{2} 
+\left[
+    \frac{1}{3} t^3
+
+\right]_0^2
+
+$$
+
+$$
+C_0 = \frac{1}{2} 
+\left[
+    \frac{1}{3} t^3
+
+\right]_0^2
+
+$$
+
+$$
+C_0 = \frac{4}{3}
+$$
