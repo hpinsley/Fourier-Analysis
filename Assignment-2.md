@@ -234,3 +234,38 @@ $
 $
 C_0  =\frac{4}{3}
 $
+
+Therefore, the final fourier series is given by:
+
+$
+f(t) = \frac{4}{3} + \sum_{n=1}^\infty
+\frac{2\left(1 + i \pi n \right)}{\pi^2 n^2}e^{2\pi i n t}
+$
+
+$
+f(t) = \frac{4}{3} + \sum_{n=1}^\infty
+\frac{2\left(1 + i \pi n \right)}{\pi^2 n^2}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
+$
+
+$
+f(t) = \frac{4}{3} + \frac{2}{\pi^2}\sum_{n=1}^\infty
+\frac{\left(1 + i \pi n \right)}{n^2}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
+$
+
+$
+f(t) = \frac{4}{3} + \frac{2}{\pi^2}\sum_{n=1}^\infty
+{\left(\frac{1}{n^2} + \frac{\pi}{n}i\right)}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
+$
+
+Let's multiply out the terms and separate the real from the imaginary parts.
+
+$
+f(t) = \frac{4}{3} + \frac{2}{\pi^2}\sum_{n=1}^\infty
+\left[
+{\left(\frac{1}{n^2}\right)}\left(\cos(2\pi n t)\right)
++{\left(\frac{1}{n^2} + \frac{\pi}{n}i\right)}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
+{\left(\frac{1}{n^2} + \frac{\pi}{n}i\right)}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
+{\left(\frac{1}{n^2} + \frac{\pi}{n}i\right)}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
+\right]
+$
+
