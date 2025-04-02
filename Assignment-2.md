@@ -104,3 +104,31 @@ $$
 }
 \right )
 $$
+
+Note that by Euler's formula:
+
+$$
+e^{i\theta} = cos(\theta) + i sin(\theta)
+$$
+
+Here $\theta$ is $-2\pi n$, therefore:
+
+$
+e^{-2\pi in} = cos(-2\pi n) + i sin(-2\pi n)
+$
+
+Since n is an integer, the angle is 0 and this evaluates to 1 and we can simplify to:
+
+$$
+\frac{1}{2} \left( {
+{\frac{-4}{\pi i n}} + \frac{2}{\pi i n} 
+\left(
+    {\frac{-2}{\pi i n}}
+    - \int_0^2 {\frac{-1}{\pi i n}}e^{-\pi in t}dt
+\right)
+}
+\right )
+$$
+
+The final integral can be evaluated directly leaving:
+
