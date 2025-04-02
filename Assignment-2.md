@@ -191,3 +191,24 @@ $$
 \right )
 $$
 
+$$
+\left( {
+{\frac{2i \pi n}{\pi^2 n^2}} + \frac{2}{\pi^2 n^2} 
+}
+\right )
+$$
+
+$$
+\left( {
+{\frac{2i \pi n + 2}{\pi^2 n^2}} 
+}
+\right )
+$$
+
+$$
+{\frac{2\left(i \pi n + 1\right)}{\pi^2 n^2}} 
+$$
+
+$$
+{\frac{2\left(1 + i \pi n \right)}{\pi^2 n^2}} 
+$$
