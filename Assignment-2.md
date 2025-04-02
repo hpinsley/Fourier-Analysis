@@ -124,11 +124,70 @@ $$
 {\frac{-4}{\pi i n}} + \frac{2}{\pi i n} 
 \left(
     {\frac{-2}{\pi i n}}
-    - \int_0^2 {\frac{-1}{\pi i n}}e^{-\pi in t}dt
+
+    
+    - 
+    
+    \int_0^2 {\frac{-1}{\pi i n}}e^{-\pi in t}dt
+
+
 \right)
 }
 \right )
 $$
 
 The final integral can be evaluated directly leaving:
+
+$$
+\frac{1}{2} \left( {
+{\frac{-4}{\pi i n}} + \frac{2}{\pi i n} 
+\left(
+    {\frac{-2}{\pi i n}}       
+    - 
+    \left[
+        \frac{-1}{\pi^2n^2}e^{-\pi i n t}
+    \right]_0^2
+    
+\right)
+}
+\right )
+$$
+
+The evaluation of the integral from 0 to 2 here is zero.
+
+$$
+\frac{1}{2} \left( {
+{\frac{-4}{\pi i n}} + \frac{2}{\pi i n} 
+\left(
+    {\frac{-2}{\pi i n}}       
+    
+\right)
+}
+\right )
+$$
+
+$$
+\frac{1}{2} \left( {
+{\frac{-4}{\pi i n}} + \frac{4}{\pi^2 n^2} 
+}
+\right )
+$$
+
+Normalizing the complex number:
+
+$$
+\frac{1}{2} \left( {
+{\frac{4i}{\pi n}} + \frac{4}{\pi^2 n^2} 
+}
+\right )
+$$
+
+Diving through
+
+$$
+\left( {
+{\frac{2i}{\pi n}} + \frac{2}{\pi^2 n^2} 
+}
+\right )
+$$
 
