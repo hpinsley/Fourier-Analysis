@@ -67,3 +67,28 @@ $$
 }
 \right )
 $$
+
+Integration by parts again:
+
+Let:
+ - $u = t$
+ - $du = dt$
+ - $dv = e^{-\pi in t}dt$
+ - $v = {\frac{-1}{\pi i n}}e^{-\pi in t}$
+
+$$
+\frac{1}{2} \left( {
+{\frac{-4}{\pi i n}} + \frac{2}{\pi i n} 
+\left(
+    \left[
+        t
+        {\frac{-1}{\pi i n}}e^{-\pi in t}
+        \right]_0^2 
+    
+    
+    - \int_0^2 {\frac{-1}{\pi i n}}e^{-\pi in t}dt
+\right)
+}
+\right )
+$$
+
