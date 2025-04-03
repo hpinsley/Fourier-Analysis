@@ -274,3 +274,47 @@ i
 \right]
 $$
 
+Now since $(a + bi) + (c + di) = (a + c) + (b + d)i$, we can split the summation into two summations, one for the real part and one for the imaginary part.
+
+$$
+f(t) = \frac{4}{3} + \frac{2}{\pi^2}
+\left[
+\sum_{n=-\infty}^\infty\left(\frac{cos(2\pi n t)}{n^2}
+- \frac{\pi sin(2\pi n t)}{n}\right)
++
+\sum_{n=-\infty}^\infty \left(
+\frac{sin(2\pi n t)}{n^2}
++
+\frac{\pi cos(2\pi n t)}{n}
+\right)
+i
+\right]
+$$
+
+$$
+f(t) = \frac{4}{3} + \frac{2}{\pi^2}
+\left[
+\sum_{n=-\infty}^\infty\left(\frac{cos(2\pi n t)-n\pi sin(2\pi n t)}{n^2}
+\right)
++
+\sum_{n=-\infty}^\infty \left(
+\frac{sin(2\pi n t)}{n^2}
++
+\frac{\pi cos(2\pi n t)}{n}
+\right)
+i
+\right]
+$$
+
+I think that since we know this is a real signal, we can drop the imaginary component?
+
+Leaving:
+
+$$
+f(t) = \frac{4}{3} + \frac{2}{\pi^2}
+\sum_{n=-\infty}^\infty\left(\frac{cos(2\pi n t)-n\pi sin(2\pi n t)}{n^2}
+\right)
+$$
+
+Something must be wrong in that we can't have a divide by zero.
+
