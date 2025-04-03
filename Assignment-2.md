@@ -238,29 +238,29 @@ $
 Therefore, the final fourier series is given by:
 
 $
-f(t) = \frac{4}{3} + \sum_{n=1}^\infty
+f(t) = \frac{4}{3} + \sum_{n=-\infty}^\infty
 \frac{2\left(1 + i \pi n \right)}{\pi^2 n^2}e^{2\pi i n t}
 $
 
 $
-f(t) = \frac{4}{3} + \sum_{n=1}^\infty
+f(t) = \frac{4}{3} + \sum_{n=-\infty}^\infty
 \frac{2\left(1 + i \pi n \right)}{\pi^2 n^2}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
 $
 
 $
-f(t) = \frac{4}{3} + \frac{2}{\pi^2}\sum_{n=1}^\infty
+f(t) = \frac{4}{3} + \frac{2}{\pi^2}\sum_{n=-\infty}^\infty
 \frac{\left(1 + i \pi n \right)}{n^2}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
 $
 
 $
-f(t) = \frac{4}{3} + \frac{2}{\pi^2}\sum_{n=1}^\infty
+f(t) = \frac{4}{3} + \frac{2}{\pi^2}\sum_{n=-\infty}^\infty
 {\left(\frac{1}{n^2} + \frac{\pi}{n}i\right)}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
 $
 
 Let's multiply out the terms and separate the real from the imaginary parts.
 
 $$
-f(t) = \frac{4}{3} + \frac{2}{\pi^2}\sum_{n=1}^\infty
+f(t) = \frac{4}{3} + \frac{2}{\pi^2}\sum_{n=-\infty}^\infty
 \left[
 \left(\frac{cos(2\pi n t)}{n^2}
 - \frac{\pi sin(2\pi n t)}{n}\right)
