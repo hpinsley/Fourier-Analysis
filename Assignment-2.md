@@ -262,22 +262,15 @@ Let's multiply out the terms and separate the real from the imaginary parts.
 $$
 f(t) = \frac{4}{3} + \frac{2}{\pi^2}\sum_{n=1}^\infty
 \left[
-
-
 \left(\frac{cos(2\pi n t)}{n^2}
 - \frac{\pi sin(2\pi n t)}{n}\right)
-
 +
-
 \left(
-
-
+\frac{sin(2\pi n t)}{n^2}
++
+\frac{\pi cos(2\pi n t)}{n2}
 \right)
 i
-
-
-
-
 \right]
 $$
 
