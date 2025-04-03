@@ -266,9 +266,9 @@ f(t) = \frac{4}{3} + \frac{2}{\pi^2}\sum_{n=1}^\infty
 - \frac{\pi sin(2\pi n t)}{n}\right)
 +
 \left(
-\frac{sin(2\pi n t)}{n}
+\frac{sin(2\pi n t)}{n^2}
 +
-\frac{\pi cos(2\pi n t)}{n2}
+\frac{\pi cos(2\pi n t)}{n}
 \right)
 i
 \right]
