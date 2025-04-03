@@ -259,13 +259,19 @@ $
 
 Let's multiply out the terms and separate the real from the imaginary parts.
 
-$
+$$
 f(t) = \frac{4}{3} + \frac{2}{\pi^2}\sum_{n=1}^\infty
 \left[
-{\left(\frac{1}{n^2}\right)}\left(\cos(2\pi n t)\right)
+
+
+\frac{cos(2\pi n t)}{n^2}
+
 +{\left(\frac{1}{n^2} + \frac{\pi}{n}i\right)}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
 {\left(\frac{1}{n^2} + \frac{\pi}{n}i\right)}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
 {\left(\frac{1}{n^2} + \frac{\pi}{n}i\right)}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
+
+
+
 \right]
-$
+$$
 
