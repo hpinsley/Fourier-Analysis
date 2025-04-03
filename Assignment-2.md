@@ -264,11 +264,17 @@ f(t) = \frac{4}{3} + \frac{2}{\pi^2}\sum_{n=1}^\infty
 \left[
 
 
-\frac{cos(2\pi n t)}{n^2}
+\left(\frac{cos(2\pi n t)}{n^2}
+- \frac{\pi sin(2\pi n t)}{n}\right)
 
-+{\left(\frac{1}{n^2} + \frac{\pi}{n}i\right)}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
-{\left(\frac{1}{n^2} + \frac{\pi}{n}i\right)}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
-{\left(\frac{1}{n^2} + \frac{\pi}{n}i\right)}\left(\cos(2\pi n t) + i \sin(2\pi n t) \right)
++
+
+\left(
+
+
+\right)
+i
+
 
 
 
