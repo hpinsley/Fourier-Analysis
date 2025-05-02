@@ -318,3 +318,10 @@ $$
 
 Something must be wrong in that we can't have a divide by zero.
 
+BX AI below
+
+$$
+[
+f(t) = \frac{4}{3} + \sum_{n=1}^\infty \frac{-16}{n^3 \pi^3} \cos\left(\frac{n \pi t}{2}\right).
+]
+$$
