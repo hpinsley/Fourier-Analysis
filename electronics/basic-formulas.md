@@ -15,6 +15,12 @@ $e = 1.602 * 10^{-19}\space C$
 
 So 1 Coulomb of charges is $6.242 * 10^{18}$ elementary charges
 
+## Energy ##
+
+Same as work which is Force over a distance
+
+The Joule = 1 Kg (mass) * 1 m / s^2 (acceleration) * m (distance)
+
 ## Current ##
 
 Current is $charge/time$
@@ -53,3 +59,6 @@ Power (Watts) = Voltage ($J / C$) * Current ($C/s$) = $J/S$ (energy/sec)
 
 ## Resistance ##
 
+$1 \space Ohm = 1 \space V / A$
+
+So that is energy/charge / ()
